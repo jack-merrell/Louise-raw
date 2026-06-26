@@ -37,7 +37,7 @@ export default function Home() {
 
           <div className="w-full self-center justify-self-start lg:mt-[14vh] lg:justify-self-end">
             <Image
-              src="/louise-portrait-real.jpg"
+              src="/louise-portrait.jpg"
               alt="Portrait of Louise Raw"
               width={916}
               height={1024}
