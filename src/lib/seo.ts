@@ -1,7 +1,7 @@
 export const siteUrl =
   // Set NEXT_PUBLIC_SITE_URL in Vercel once the production domain is final.
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
-  "https://www.louiseraw.com";
+  "https://www.louiseraw.xyz";
 
 export const seo = {
   siteName: "Louise Raw — Commercial Lead",
@@ -46,7 +46,7 @@ export const seo = {
   },
   portraitImage: "/louise-portrait.jpg",
   // Replace with Louise's real LinkedIn profile before launch.
-  linkedInUrl: "https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG",
+  linkedInUrl: "https://www.linkedin.com/in/louise-raw-9987045a/",
 } as const;
 
 export const absoluteUrl = (path = "/") => new URL(path, siteUrl).toString();
