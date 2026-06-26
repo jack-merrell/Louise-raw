@@ -19,23 +19,23 @@ export default function Home() {
     <main className="min-h-screen bg-background text-foreground">
       <section
         aria-labelledby="hero-title"
-        className="grid min-h-screen grid-rows-[auto_1fr_auto] px-6 py-6 sm:px-10 lg:px-16 lg:py-5"
+        className="relative grid min-h-screen grid-rows-[auto_1fr_auto] px-6 py-7 sm:px-10 lg:px-8 lg:py-9"
       >
-        <p className="text-[clamp(1.9rem,3.5vw,3.25rem)] font-semibold italic leading-none tracking-normal">
+        <p className="text-[clamp(1.85rem,3.2vw,3.1rem)] font-semibold italic leading-none tracking-normal">
           Louise Raw — Commercial Lead
         </p>
 
-        <div className="grid items-start gap-x-12 gap-y-12 pt-5 lg:grid-cols-[minmax(0,1fr)_minmax(330px,0.37fr)] lg:pt-4">
+        <div className="grid items-start gap-x-14 gap-y-12 pt-5 lg:grid-cols-[minmax(0,57vw)_minmax(360px,30vw)] lg:justify-between lg:pt-5">
           <h1
             id="hero-title"
-            className="max-w-[22ch] text-balance text-[clamp(2.35rem,3.25vw,4rem)] font-normal leading-[0.96] tracking-normal"
+            className="max-w-[32ch] text-balance text-[clamp(2.25rem,3.08vw,3.95rem)] font-normal leading-[1.04] tracking-normal"
           >
             I help founder-led companies diagnose and fix the commercial systems
             behind growth — across sales, marketing, retention, CRM, reporting
             and customer experience.
           </h1>
 
-          <div className="self-center justify-self-start lg:mt-[21vh] lg:justify-self-end">
+          <div className="self-center justify-self-start lg:mt-[14vh] lg:justify-self-end">
             <Image
               src="/louise-portrait-real.jpg"
               alt="Portrait of Louise Raw"
@@ -43,21 +43,21 @@ export default function Home() {
               height={1024}
               priority
               sizes="(min-width: 1024px) 30vw, (min-width: 640px) 52vw, 88vw"
-              className="aspect-[0.9] w-full max-w-[390px] rounded-xl border border-black/10 object-cover object-center sm:max-w-[440px] lg:max-w-[410px]"
+              className="aspect-[0.9] w-full max-w-[390px] rounded-xl border border-black/10 object-cover object-center sm:max-w-[440px] lg:max-w-[30vw]"
             />
           </div>
         </div>
 
-        <div className="grid gap-6 pb-5 pt-8 lg:grid-cols-[minmax(0,0.9fr)_1fr] lg:pb-6 lg:pt-0">
-          <div className="max-w-[54rem] lg:col-start-1">
-            <p className="text-[clamp(1.2rem,1.35vw,1.6rem)] leading-[1.05] tracking-normal">
+        <div className="grid gap-6 pb-8 pt-10 lg:absolute lg:bottom-14 lg:left-8 lg:w-[58vw] lg:grid-cols-1 lg:pb-0 lg:pt-0">
+          <div className="max-w-[58rem] lg:col-start-1">
+            <p className="text-[clamp(1.2rem,1.7vw,1.85rem)] leading-[1.08] tracking-normal">
               13 years inside a UK Edtech startup, from employee #2 to Head of
               UK Business, helping scale from under 50 schools to over 2,000.
             </p>
             <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-4">
               <a
                 href="mailto:hello@example.com"
-                className="inline-flex min-h-10 items-center rounded-xl border-2 border-foreground px-5 text-[clamp(1.05rem,1.35vw,1.45rem)] font-semibold leading-none transition-colors hover:bg-foreground hover:text-background focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-foreground"
+                className="inline-flex min-h-12 items-center rounded-xl border-2 border-foreground px-5 text-[clamp(1.15rem,1.7vw,1.95rem)] font-semibold leading-none transition-colors hover:bg-foreground hover:text-background focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-foreground"
               >
                 Work With Me
               </a>
