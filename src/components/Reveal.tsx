@@ -18,10 +18,8 @@ export function Reveal({
 
   return (
     <motion.div
-      initial={
-        shouldReduceMotion ? { opacity: 1 } : { opacity: 0, y: 28, filter: "blur(6px)" }
-      }
-      whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+      initial={shouldReduceMotion ? { opacity: 1 } : { opacity: 0, y: 28 }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.24 }}
       transition={{
         duration: shouldReduceMotion ? 0 : 0.9,
@@ -46,10 +44,8 @@ export function RevealListItem({
 
   return (
     <motion.li
-      initial={
-        shouldReduceMotion ? { opacity: 1 } : { opacity: 0, y: 24, filter: "blur(5px)" }
-      }
-      whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+      initial={shouldReduceMotion ? { opacity: 1 } : { opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.32 }}
       transition={{
         duration: shouldReduceMotion ? 0 : 0.82,
