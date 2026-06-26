@@ -28,14 +28,14 @@ export default function Home() {
         <div className="grid items-start gap-x-12 gap-y-12 pt-5 lg:grid-cols-[minmax(0,62vw)_minmax(340px,29vw)] lg:justify-between lg:pt-5">
           <h1
             id="hero-title"
-            className="max-w-[36ch] text-balance text-[clamp(2.25rem,3.08vw,3.95rem)] font-normal leading-[1.04] tracking-normal"
+            className="max-w-[36ch] text-balance text-[clamp(1.9rem,3.08vw,3.95rem)] font-normal leading-[1.04] tracking-normal"
           >
             I help founder-led companies diagnose and fix the commercial systems
             behind growth — across sales, marketing, retention, CRM, reporting
             and customer experience.
           </h1>
 
-          <div className="self-center justify-self-start lg:mt-[14vh] lg:justify-self-end">
+          <div className="w-full self-center justify-self-start lg:mt-[14vh] lg:justify-self-end">
             <Image
               src="/louise-portrait-real.jpg"
               alt="Portrait of Louise Raw"
@@ -43,7 +43,7 @@ export default function Home() {
               height={1024}
               priority
               sizes="(min-width: 1024px) 30vw, (min-width: 640px) 52vw, 88vw"
-              className="aspect-[0.9] w-full max-w-[390px] rounded-xl border border-black/10 object-cover object-center sm:max-w-[440px] lg:max-w-[30vw]"
+              className="aspect-[0.9] w-full rounded-xl border border-black/10 object-cover object-center sm:max-w-[440px] lg:max-w-[30vw]"
             />
           </div>
         </div>
