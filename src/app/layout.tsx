@@ -69,6 +69,10 @@ export const metadata: Metadata = {
         url: "/icon.png",
         type: "image/png",
       },
+      {
+        url: "/favicon.jpg",
+        type: "image/jpeg",
+      },
     ],
     apple: [
       {
