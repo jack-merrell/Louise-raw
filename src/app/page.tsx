@@ -28,7 +28,7 @@ export default function Home() {
         <div className="grid items-start gap-x-12 gap-y-12 pt-5 lg:grid-cols-[minmax(0,62vw)_minmax(340px,29vw)] lg:justify-between lg:pt-5">
           <h1
             id="hero-title"
-            className="max-w-[36ch] text-balance text-[clamp(1.9rem,3.08vw,3.95rem)] font-normal leading-[1.04] tracking-normal"
+            className="max-w-[36ch] text-balance text-[clamp(1.8rem,3.08vw,3.95rem)] font-normal leading-[1.04] tracking-normal"
           >
             I help founder-led companies diagnose and fix the commercial systems
             behind growth — across sales, marketing, retention, CRM, reporting
