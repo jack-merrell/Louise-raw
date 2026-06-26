@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Google_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { StructuredData } from "@/components/StructuredData";
 import { absoluteUrl, seo, siteUrl } from "@/lib/seo";
 import "./globals.css";
@@ -99,6 +100,7 @@ export default function RootLayout({
       <body className="min-h-full">
         <StructuredData />
         {children}
+        <Analytics />
       </body>
     </html>
   );
