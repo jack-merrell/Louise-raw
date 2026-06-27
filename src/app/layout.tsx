@@ -1,14 +1,23 @@
 import type { Metadata, Viewport } from "next";
-import { Google_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import { StructuredData } from "@/components/StructuredData";
 import { absoluteUrl, seo, siteUrl } from "@/lib/seo";
 import "./globals.css";
 
-const googleSans = Google_Sans({
+const googleSans = localFont({
   variable: "--font-google-sans",
-  weight: ["400", "500", "600", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
+  src: [
+    {
+      path: "../fonts/google-sans-latin.woff2",
+      style: "normal",
+      weight: "400 700",
+    },
+    {
+      path: "../fonts/google-sans-latin-italic.woff2",
+      style: "italic",
+      weight: "400 700",
+    },
+  ],
   adjustFontFallback: false,
 });
 
@@ -70,8 +79,8 @@ export const metadata: Metadata = {
         type: "image/png",
       },
       {
-        url: "/favicon.jpg",
-        type: "image/jpeg",
+        url: "/favicon.png",
+        type: "image/png",
       },
     ],
     apple: [
