@@ -72,12 +72,6 @@ export default function Home() {
               >
                 Work With Me
               </a>
-              <a
-                href="#approach"
-                className="text-lg leading-none underline decoration-1 underline-offset-4 transition-opacity hover:opacity-55 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-foreground"
-              >
-                View approach
-              </a>
             </div>
           </div>
         </Reveal>
